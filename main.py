@@ -23,6 +23,7 @@ def draw():
         boid.show()
         boid.update()
         boid.wall_hit()
+        boid.apply_behaviour(flock)
 
 
 run()
